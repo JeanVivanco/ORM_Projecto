@@ -1,0 +1,16 @@
+{% extends 'index.jinja' %}
+
+{% block titulo %}
+    Inicio
+{% endblock titulo %}
+
+{% block container %}
+    <h1>Inicio</h1>
+    <div>
+        <h2>Numeros de libros:{{ num_libros }}</h2>
+        <h2>Numero de ejemplares:{{ num_ejemplares }}</h2>
+        <h2>Numero de dejemplares disponibles: {{ num_ejemplares_disponibles }}</h2>
+        <h2>Numero de autores: {{ num_autores }}</h2>
+        <h2>Numero de novelas: {{ num_libros_novela }}</h2>
+    </div>
+{% endblock container %}

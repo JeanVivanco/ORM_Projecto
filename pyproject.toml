@@ -1,0 +1,7 @@
+[project]
+name = "Biblioteca Django"
+version = "0.1"
+dependencies = ["django"]
+requires-python = "3.13"
+authors = [{name="Thehunter101",email="thehunter10121@gmail.com"}]
+description = "Trabajo practico de una biblioteca en django"
